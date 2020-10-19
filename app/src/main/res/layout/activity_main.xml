@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:stretchColumns="1"
+    tools:context=".MainActivity">
+
+    <TableRow android:background="#4CAF50">
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="@string/open"
+            android:textSize="18sp" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="Ctrl+O"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow android:background="#4CAF50">
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="@string/save"
+            android:textSize="18sp" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="Ctrl+S"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow android:background="#4CAF50">
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="@string/print"
+            android:textSize="18sp" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="Ctrl+P"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow android:background="#ffff00">
+
+        <TextView android:padding="3dip" />
+
+        <TextView
+            android:padding="3dip"
+            android:text="@string/cut"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ctrl+X"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow android:background="#ffff00">
+
+        <TextView android:padding="3dip" />
+
+        <TextView
+            android:padding="3dip"
+            android:text="@string/copy"
+            android:textSize="18sp" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="Ctrl+C"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow android:background="#F66B61">
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="@string/quit"
+            android:textSize="18sp" />
+    </TableRow>
+
+</TableLayout>

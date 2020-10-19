@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TableLayout</string>
+    <string name="open">Open...</string>
+    <string name="save">Save...</string>
+    <string name="copy">Copy...</string>
+    <string name="quit">Quit</string>
+    <string name="cut">Cut...</string>
+    <string name="print">Print...</string>
+</resources>
